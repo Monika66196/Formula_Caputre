@@ -8,8 +8,8 @@ Features:
 - LaTeX formula preview
 - Copy and edit functionality
 
-Author: Your Name
-License: MIT
+Author: Monika Sharma
+
 """
 
 import sys
