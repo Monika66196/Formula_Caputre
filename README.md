@@ -28,3 +28,4 @@
 - Python 3.8 or later
 - Dependencies listed in `requirements.txt`
 - (Optional) Mathpix API credentials for best accuracy
+
