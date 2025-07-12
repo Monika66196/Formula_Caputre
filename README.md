@@ -1,31 +1,50 @@
-# Floating Formula Capture
+# ✨ Floating Formula Capture
 
-**Floating Formula Capture** is a lightweight, always-on-top desktop tool that enables you to quickly extract mathematical formulas from anywhere on your screen and instantly convert them into editable LaTeX.
+> *Snip → Extract → Edit → Copy LaTeX — in seconds.*
 
-## Features
+**Floating Formula Capture** is a simple, lightweight tool designed to sit quietly on your desktop — always ready when you need it. Just snip a region of your screen, and it instantly extracts the math formula and gives you the LaTeX. That’s it. Fast, no-fuss, and made for the real work we do as students, educators, and researchers.
 
-- **Floating Popup:** Launches as a floating window that stays above all other applications.
-- **Screen Region Selection:** Select any area of your screen (like a snipping tool) to capture formulas from images, PDFs, presentations, or handwritten notes.
-- **Formula Recognition:** Uses OCR and advanced mathematical formula recognition (Mathpix API or open-source alternatives) to convert images to LaTeX code.
-- **Editable Output:** Displays the recognized LaTeX in an editable text field within the popup, allowing you to make corrections or adjustments before use.
-- **Copy to Clipboard:** Easily copy the LaTeX code with a single click.
-- **User-Friendly:** Minimal interface designed for speed and convenience—perfect for students, educators, and researchers.
+---
 
-## Typical Use Cases
+## 🚀 What It Does
 
-- Digitizing handwritten or printed math from lecture slides, textbooks, or notes.
-- Quickly converting formulas from PDFs or websites to LaTeX for use in documents and assignments.
-- Seamlessly integrating LaTeX-formatted math into your workflow, regardless of the source.
+- 🪟 **Floating Popup:** Always-on-top, distraction-free mini window that works over any app — PDFs, slides, videos, even Zoom screens!
+- ✂️ **Snip Anywhere:** Select any region from your screen like a snipping tool — ideal for handwritten notes, printed pages, screenshots, or presentation slides.
+- 🧠 **Smart Formula Recognition:** Sends the image to the **Mathpix OCR API** (or a pluggable open-source engine, if you prefer), and converts it into clean LaTeX.
+- ✍️ **Editable Output:** Edit or tweak the LaTeX before you use it. No need to start over if it got one tiny thing wrong.
+- 📋 **One-Click Copy:** Just hit copy and paste the LaTeX into your document, Overleaf, or wherever you need it.
 
-## Getting Started
+---
 
-1. **Select the region** of the screen containing the desired formula.
-2. **The captured image** will be processed, and the LaTeX code will appear in a popup.
-3. **Edit or copy** the LaTeX code as needed.
+## 🎯 Why I Made This
 
-## Requirements
+As a researcher constantly juggling between lecture slides, PDFs, and scribbled notes, I needed a tool that worked like muscle memory — snip, grab the math, paste. No clutter, no waiting. So I built this — and I hope it helps you too.
 
-- Python 3.8 or later
-- Dependencies listed in `requirements.txt`
-- (Optional) Mathpix API credentials for best accuracy
+— *Monika S* 🤍
 
+---
+
+## 🔍 Typical Use Cases
+
+- Turn **handwritten equations** from notebooks or whiteboards into LaTeX in seconds.
+- Convert formulas from **PDFs, websites, or books** into editable LaTeX for assignments or papers.
+- Streamline your **research workflow** — skip typing, start writing.
+
+---
+
+## 🧑‍💻 Getting Started
+
+1. 🖱️ Launch the app.
+2. 🖼️ Select a region of your screen that contains a formula.
+3. 🧮 The LaTeX version of that formula pops up instantly.
+4. 📝 Edit if needed, then hit **Copy** and paste it wherever you want.
+
+---
+
+## 📦 Requirements
+
+- **Python 3.8+**
+- Install dependencies via:
+
+```bash
+pip install -r requirements.txt
